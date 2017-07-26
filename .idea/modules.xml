@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Abstract-Factory.iml" filepath="$PROJECT_DIR$/.idea/modules/Abstract-Factory.iml" group="Abstract-Factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_main.iml" group="Abstract-Factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_test.iml" group="Abstract-Factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Build-Patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/Build-Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Build-Patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Build-Patterns_main.iml" group="Build-Patterns" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Build-Patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Build-Patterns_test.iml" group="Build-Patterns" />
+    </modules>
+  </component>
+</project>
