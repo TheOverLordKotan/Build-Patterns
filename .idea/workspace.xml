@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="663ff280-b782-42d3-aefb-e5cb4e8da15a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Abstract-Factory/src/main/java/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Abstract-Factory.iml" afterPath="$PROJECT_DIR$/.idea/modules/Abstract-Factory.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Abstract-Factory/Abstract-Factory_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Build-Patterns_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Build-Patterns_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Abstract-Factory/src/main/resources/resource.abstract.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Abstract-Factory/src/test/java/AppTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Abstract-Factory/src/test/resources/resource.test.abstract.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,7 +32,18 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Abstract-Factory/src/test/java/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -537,13 +543,9 @@
             <path>
               <item name="Build-Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Build-Patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Build-Patterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Build-Patterns" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="Abstract-Factory" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1098,12 +1100,20 @@
       <option name="presentableId" value="Default" />
       <updated>1501042618262</updated>
       <workItem from="1501042620601" duration="287000" />
-      <workItem from="1501124479112" duration="2991000" />
+      <workItem from="1501124479112" duration="3494000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes a New Main Method">
+      <created>1501127498983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501127498983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3278000" />
+    <option name="totallyTimeSpent" value="3781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1116,6 +1126,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1214,6 +1225,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes a New Main Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes a New Main Method" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1259,6 +1274,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract-Factory/src/main/resources/resource.abstract.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract-Factory/src/test/resources/resource.test.abstract.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abstract-Factory/src/test/java/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
